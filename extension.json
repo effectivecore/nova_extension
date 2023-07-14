@@ -1,0 +1,12 @@
+{
+  "identifier": "rysmax.effcore",
+  "name": "EFFCORE",
+  "organization": "EFFCORE Foundation",
+  "description": "High-contrast dark/light theme for long-term usage.",
+  "version": "1.0.15",
+  "categories": ["themes"],
+  "homepage": "http://effcore.com",
+  "repository": "https://github.com/effectivecore/nova_extension",
+  "bugs": "https://github.com/effectivecore/nova_extension",
+  "license": ""
+}

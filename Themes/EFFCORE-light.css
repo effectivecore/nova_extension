@@ -1,0 +1,384 @@
+
+
+
+/* more details at: https://docs.nova.app/extensions/themes */
+
+meta {
+  -theme-display-name: "EFFCORE light";
+  -theme-interface-style: light;
+  -theme-vibrancy: none;
+  -theme-accent-color: false;
+}
+
+
+
+/* ###################### */
+/* ### Window Content ### */
+/* ###################### */
+
+meta.window {
+}
+
+meta.titlebar {
+}
+
+meta.titlebar.inactive {
+}
+
+
+
+/* ############### */
+/* ### Buttons ### */
+/* ############### */
+
+meta.button {
+}
+
+meta.button.disabled,
+meta.button.highlighted,
+meta.button.selected,
+meta.button.highlighted.selected {
+}
+
+
+
+/* ################### */
+/* ### Text Fields ### */
+/* ################### */
+
+meta.textfield {
+}
+
+meta.textfield.active {
+}
+
+
+
+/* ######################## */
+/* ### Document Content ### */
+/* ######################## */
+
+meta.document {
+  background-color: #f4f6f9;
+}
+
+meta.document.button {
+}
+
+meta.document.button.disabled {
+}
+
+meta.document.button.highlighted {
+}
+
+meta.document.textfield {
+}
+
+meta.document.textfield.highlighted {
+}
+
+meta.text {
+  color: #000000;
+}
+
+meta.text.selected {
+  background-color: #f1d1ac;
+}
+
+meta.text.invisible {
+  color: #e0e0e0;
+}
+
+meta.cursor {
+  background-color: #ebf2f6;
+}
+
+meta.indentguide {
+}
+
+meta.gutter {
+  color: #cbcbcb;
+}
+
+meta.gutter.selected {
+  color: #638498;
+}
+
+
+
+/* ################################### */
+/* ### Styling Syntax Highlighting ### */
+/* ################################### */
+
+keyword {
+  color: #d16506;
+}
+
+comment {
+  color: #aebfce;
+}
+
+processing {
+}
+
+declaration {
+}
+
+bracket {
+  color: #d16506;
+}
+
+operator {
+  color: #d16506;
+}
+
+invalid {
+}
+
+link {
+}
+
+value {
+  color: #0b70ae;
+}
+
+value.boolean,
+value.null,
+value.number,
+value.entity,
+value.symbols {
+}
+
+string {
+  color: #0b70ae;
+}
+
+string.key {
+}
+
+string-template {
+}
+
+string-template.value {
+}
+
+regex {
+}
+
+regex.escaped {
+}
+
+cdata {
+  color: #aebfce;
+}
+
+identifier {
+}
+
+identifier.type {
+}
+
+identifier.type.class,
+identifier.type.protocol,
+identifier.type.enum,
+identifier.type.union,
+identifier.type.struct {
+}
+
+identifier.global {
+}
+
+identifier.variable {
+  color: #000000;
+}
+
+identifier.constant {
+}
+
+identifier.property {
+}
+
+identifier.decorator {
+}
+
+identifier.function {
+  color: #6a9012;
+}
+
+identifier.method {
+  color: #6a9012;
+}
+
+identifier.key {
+  color: #6a9012;
+}
+
+identifier.argument {
+  color: #6a9012;
+}
+
+identifier.core {
+}
+
+definition {
+}
+
+definition.type type.name,
+definition.class class.name,
+definition.package package.name,
+definition.protocol protocol.name,
+definition.enum enum.name,
+definition.union union.name,
+definition.struct struct.name,
+definition.property property.name,
+definition.function function.name,
+definition.method method.name {
+}
+
+
+
+/* base class of all markup tags (such as HTML and XML) */
+
+tag {
+  color: #000000;
+}
+
+tag.framework {
+  color: #602adb;
+}
+
+tag.attribute {
+}
+
+tag.attribute.name {
+  color: #d16506;
+}
+
+tag.attribute.value {
+  color: #0b70ae;
+}
+
+tag.attribute.value.link {
+}
+
+
+
+/* base class of all stylesheet symbols (such as CSS) */
+
+style {
+}
+
+style.at {
+  color: #602adb;
+}
+
+style.selector {
+  color: #000000;
+}
+
+style.selector.element,
+style.selector.identifier.id,
+style.selector.identifier.class {
+  color: #d16506;
+}
+
+style.selector.pseudoclass {
+  color: #6a9012;
+}
+
+style.selector.pseudoelement {
+  color: #6a9012;
+}
+
+style.attribute {
+}
+
+style.attribute.name {
+  color: #d16506;
+}
+
+style.value {
+  color: #0b70ae;
+}
+
+style.value.number {
+}
+
+style.value.color {
+}
+
+style.value.color.named {
+}
+
+style.value.color.hex {
+}
+
+style.value.keyword {
+}
+
+style.value.identifier.function {
+}
+
+
+
+/* base class for non-tag markup elements (such as Markdown) */
+
+markup {
+}
+
+markup.heading {
+  font-weight: bold;
+}
+
+markup.line {
+}
+
+markup.bold {
+  font-weight: bold;
+}
+
+markup.italic {
+  font-style: italic;
+}
+
+markup.strikethrough {
+}
+
+markup.list {
+}
+
+markup.list.item {
+}
+
+markup.code {
+}
+
+markup.link {
+  color: #638498;
+}
+
+
+
+/* ############################### */
+/* ### Styling Terminal Colors ### */
+/* ############################### */
+
+terminal.black,
+terminal.red,
+terminal.green,
+terminal.yellow,
+terminal.blue,
+terminal.magenta,
+terminal.cyan,
+terminal.white,
+terminal.bright-black,
+terminal.bright-red,
+terminal.bright-green,
+terminal.bright-yellow,
+terminal.bright-blue,
+terminal.bright-magenta,
+terminal.bright-cyan,
+terminal.bright-white {
+}
+
+

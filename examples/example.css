@@ -1,0 +1,21 @@
+
+/* comment */
+
+@media screen and (max-width: 600px) {
+  #selector_with_id {-property: value}
+  .selector_with_class {-property: value}
+  x-selector_with_attribute_selector[data-attribute] {-property: value}
+  x-selector_with_attribute_selector[data-attribute='value'] {-property: value}
+  x-selector_with_attribute_selector[data-attribute~='value'] {-property: value}
+  x-selector_with_attribute_selector[data-attribute|='value'] {-property: value}
+  x-selector_with_attribute_selector[data-attribute^='value'] {-property: value}
+  x-selector_with_attribute_selector[data-attribute$='value'] {-property: value}
+  x-selector_with_attribute_selector[data-attribute*='value'] {-property: value}
+  x-selector_with_pseudo_class:first-child {-property: value}
+  x-selector_with_pseudo_element::first-letter {-property: value}
+  x-selector_with_value_number {width: 100%}
+  x-selector_with_value_color_named {color: white}
+  x-selector_with_value_color_hex {color: #ffffff}
+  x-selector_with_value_keyword {float: right}
+  x-selector_with_value_url {background-image: url('http://url')}
+}
