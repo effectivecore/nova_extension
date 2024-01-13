@@ -1,17 +1,20 @@
-document.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', function () {
 
-    document.querySelector('x-tag[data-property="value"]').forEach(function(c_element){
-        var c_value_int = Math.floor(0) + 1;
-        var c_value_float = 0.001;
-        var c_value_string = 'string value';
-        var c_value_bool = true;
-        var c_value_null = null;
-        var c_value_array = [];
-        var c_element = document.createElement('x-element');
-        c_element.innerText = c_value_string;
-        c_element.setAttribute('data-new-attribute', 'some attribute value');
-        c_element.addEventListener('click', function(event){
-            alert(c_element);
+    document.querySelector('x-tag[data-property="value"]').forEach(function (element) {
+        let valueInt = 1;
+        let valueFloat = 0.001;
+        let valueString = 'string value';
+        let valueBool = true;
+        let valueNull = null;
+        let valueArray = [1, 2, 3];
+        let valueObject = {'key': 'value'};
+        let element = document.createElement('x-element');
+        let [x, y, x] = Math.getXandYandZ();
+        element.attributeText = 'some text';
+        element.methood(1, 0.001, 'string value', true, null, [1, 2, 3], {'key': 'value'});
+        element.customMethod = (x, y) => x + y;
+        element.addEventListener('click', function (event) {
+            alert(event);
         });
     });
 

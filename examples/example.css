@@ -5,7 +5,7 @@
   #selector_with_id {-property: value}
   .selector_with_class {-property: value}
   x-selector_with_attribute_selector[data-attribute] {-property: value}
-  x-selector_with_attribute_selector[data-attribute='value'] {-property: value}
+  x-selector_with_attribute_selector[data-attribute='value' ] {-property: value}
   x-selector_with_attribute_selector[data-attribute~='value'] {-property: value}
   x-selector_with_attribute_selector[data-attribute|='value'] {-property: value}
   x-selector_with_attribute_selector[data-attribute^='value'] {-property: value}

@@ -4,7 +4,7 @@
 /* more details at: https://docs.nova.app/extensions/themes */
 
 meta {
-  -theme-display-name: "EFFCORE dark (g/b)";
+  -theme-display-name: "EFFCORE dark";
   -theme-interface-style: dark;
   -theme-vibrancy: none;
   -theme-accent-color: false;
@@ -59,26 +59,11 @@ meta.textfield.active {
 /* ######################## */
 
 meta.document {
-  background-color: #141414;
-}
-
-meta.document.button {
-}
-
-meta.document.button.disabled {
-}
-
-meta.document.button.highlighted {
-}
-
-meta.document.textfield {
-}
-
-meta.document.textfield.highlighted {
+  background-color: #1f1f1f;
 }
 
 meta.text {
-  color: #e6e1dc;
+  color: #ffffff;
 }
 
 meta.text.selected {
@@ -109,11 +94,21 @@ meta.gutter.selected {
 /* ################################### */
 
 keyword {
-  color: #ffa759;
+  color: #ffa75a;
+}
+
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator {
+}
+
+keyword.self {
+  color: #ffffff;
 }
 
 comment {
-  color: #928374;
+  color: #928375;
 }
 
 processing {
@@ -123,21 +118,18 @@ declaration {
 }
 
 bracket {
-  color: #d5c4a1;
+  color: #ffa75a;
 }
 
 operator {
-  color: #ea9c77;
+  color: #ffa75a;
 }
 
 invalid {
 }
 
-link {
-}
-
 value {
-  color: #7caac6;
+  color: #e5d8a4;
 }
 
 value.boolean,
@@ -148,7 +140,7 @@ value.symbols {
 }
 
 string {
-  color: #7caac6;
+  color: #e5d8a4;
 }
 
 string.key {
@@ -174,6 +166,7 @@ identifier {
 }
 
 identifier.type {
+  color: #ffffff;
 }
 
 identifier.type.class,
@@ -187,32 +180,31 @@ identifier.global {
 }
 
 identifier.variable {
-  color: #7caac6;
+  color: #ffffff;
 }
 
 identifier.constant {
 }
 
 identifier.property {
+  color: #a2dbf2;
 }
 
 identifier.decorator {
 }
 
 identifier.function {
-  color: #b4ca73;
+  color: #b3ca72;
 }
 
 identifier.method {
-  color: #b4ca73;
+  color: #b3ca72;
 }
 
 identifier.key {
-  color: #b4ca73;
 }
 
 identifier.argument {
-  color: #b4ca73;
 }
 
 identifier.core {
@@ -221,16 +213,16 @@ identifier.core {
 definition {
 }
 
-definition.type type.name,
-definition.class class.name,
-definition.package package.name,
-definition.protocol protocol.name,
-definition.enum enum.name,
-definition.union union.name,
-definition.struct struct.name,
-definition.property property.name,
-definition.function function.name,
-definition.method method.name {
+definition.type,
+definition.class,
+definition.package,
+definition.protocol,
+definition.enum,
+definition.union,
+definition.struct,
+definition.property,
+definition.function,
+definition.method {
 }
 
 
@@ -238,7 +230,7 @@ definition.method method.name {
 /* base class of all markup tags (such as HTML and XML) */
 
 tag {
-  color: #ffd07f;
+  color: #ffa75a;
 }
 
 tag.framework {
@@ -249,14 +241,11 @@ tag.attribute {
 }
 
 tag.attribute.name {
-  color: #ffa759;
+  color: #a2dbf2;
 }
 
 tag.attribute.value {
-  color: #7caac6;
-}
-
-tag.attribute.value.link {
+  color: #e5d8a4;
 }
 
 
@@ -271,32 +260,32 @@ style.at {
 }
 
 style.selector {
-  color: #ffffff;
 }
 
-style.selector.element,
-style.selector.identifier.id,
+style.selector.element {
+}
+
+style.selector.identifier.id {  
+}
+
 style.selector.identifier.class {
-  color: #ffd07f;
 }
 
 style.selector.pseudoclass {
-  color: #ffffff;
 }
 
 style.selector.pseudoelement {
-  color: #ffffff;
+  color: #ffa75a;
 }
 
 style.attribute {
+  color: #a2dbf2;
 }
 
 style.attribute.name {
-  color: #d1873f;
 }
 
 style.value {
-  color: #7caac6;
 }
 
 style.value.number {
@@ -312,9 +301,6 @@ style.value.color.hex {
 }
 
 style.value.keyword {
-}
-
-style.value.identifier.function {
 }
 
 

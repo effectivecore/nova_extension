@@ -62,21 +62,6 @@ meta.document {
   background-color: #f4f6f9;
 }
 
-meta.document.button {
-}
-
-meta.document.button.disabled {
-}
-
-meta.document.button.highlighted {
-}
-
-meta.document.textfield {
-}
-
-meta.document.textfield.highlighted {
-}
-
 meta.text {
   color: #000000;
 }
@@ -114,6 +99,15 @@ keyword {
   color: #d16506;
 }
 
+keyword.construct,
+keyword.condition,
+keyword.modifier,
+keyword.operator {
+}
+
+keyword.self {
+}
+
 comment {
   color: #aebfce;
 }
@@ -133,9 +127,6 @@ operator {
 }
 
 invalid {
-}
-
-link {
 }
 
 value {
@@ -223,16 +214,16 @@ identifier.core {
 definition {
 }
 
-definition.type type.name,
-definition.class class.name,
-definition.package package.name,
-definition.protocol protocol.name,
-definition.enum enum.name,
-definition.union union.name,
-definition.struct struct.name,
-definition.property property.name,
-definition.function function.name,
-definition.method method.name {
+definition.type,
+definition.class,
+definition.package,
+definition.protocol,
+definition.enum,
+definition.union,
+definition.struct,
+definition.property,
+definition.function,
+definition.method {
 }
 
 
@@ -258,9 +249,6 @@ tag.attribute.value {
   color: #0b70ae;
 }
 
-tag.attribute.value.link {
-}
-
 
 
 /* base class of all stylesheet symbols (such as CSS) */
@@ -276,8 +264,14 @@ style.selector {
   color: #000000;
 }
 
-style.selector.element,
-style.selector.identifier.id,
+style.selector.element {
+  color: #d16506;
+}
+
+style.selector.identifier.id {
+  color: #d16506;
+}
+
 style.selector.identifier.class {
   color: #d16506;
 }
@@ -314,9 +308,6 @@ style.value.color.hex {
 }
 
 style.value.keyword {
-}
-
-style.value.identifier.function {
 }
 
 
