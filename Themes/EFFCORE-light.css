@@ -67,7 +67,7 @@ meta.text {
 }
 
 meta.text.selected {
-  background-color: #f1d1ac;
+  background-color: #a5c8dd;
 }
 
 meta.text.invisible {
@@ -75,7 +75,7 @@ meta.text.invisible {
 }
 
 meta.cursor {
-  background-color: #ebf2f6;
+  background-color: #dde9f0;
 }
 
 meta.indentguide {
@@ -86,7 +86,7 @@ meta.gutter {
 }
 
 meta.gutter.selected {
-  color: #638498;
+  color: #638aa2;
 }
 
 
@@ -96,7 +96,8 @@ meta.gutter.selected {
 /* ################################### */
 
 keyword {
-  color: #d16506;
+  font-weight: bold;
+  color: #e88000;
 }
 
 keyword.construct,
@@ -119,11 +120,13 @@ declaration {
 }
 
 bracket {
-  color: #d16506;
+  font-weight: bold;
+  color: #e88000;
 }
 
 operator {
-  color: #d16506;
+  font-weight: bold;
+  color: #e88000;
 }
 
 invalid {
@@ -167,6 +170,7 @@ identifier {
 }
 
 identifier.type {
+  color: #000000;
 }
 
 identifier.type.class,
@@ -187,25 +191,24 @@ identifier.constant {
 }
 
 identifier.property {
+  color: #010101;
 }
 
 identifier.decorator {
 }
 
 identifier.function {
-  color: #6a9012;
+  color: #358a0a;
 }
 
 identifier.method {
-  color: #6a9012;
+  color: #358a0a;
 }
 
 identifier.key {
-  color: #6a9012;
 }
 
 identifier.argument {
-  color: #6a9012;
 }
 
 identifier.core {
@@ -231,21 +234,25 @@ definition.method {
 /* base class of all markup tags (such as HTML and XML) */
 
 tag {
-  color: #000000;
+  font-weight: bold;
+  color: #e88000;
 }
 
 tag.framework {
-  color: #602adb;
+  color: #960cc4;
 }
 
 tag.attribute {
+  color: #000000;
 }
 
 tag.attribute.name {
-  color: #d16506;
+  font-weight: normal;
+  color: #358a0a;
 }
 
 tag.attribute.value {
+  font-weight: normal;
   color: #0b70ae;
 }
 
@@ -257,41 +264,39 @@ style {
 }
 
 style.at {
-  color: #602adb;
+  font-weight: bold;
+  color: #960cc4;
 }
 
 style.selector {
-  color: #000000;
 }
 
 style.selector.element {
-  color: #d16506;
 }
 
 style.selector.identifier.id {
-  color: #d16506;
 }
 
 style.selector.identifier.class {
-  color: #d16506;
 }
 
 style.selector.pseudoclass {
-  color: #6a9012;
 }
 
 style.selector.pseudoelement {
-  color: #6a9012;
 }
 
 style.attribute {
+  color: #000000;
 }
 
 style.attribute.name {
-  color: #d16506;
+  font-weight: normal;
+  color: #358a0a;
 }
 
 style.value {
+  font-weight: normal;
   color: #0b70ae;
 }
 

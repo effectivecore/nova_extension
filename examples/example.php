@@ -6,12 +6,12 @@
 
 namespace Vendor\Model;
 
-require_once('someFile');
+require_once('some/file');
 
 use OtherVendor\Model as OtherClass;
 use stdClass;
 
-abstract class someClass extends someChildClass implements someInterface {
+abstract class SomeClass extends BaseClass implements BaseInterface {
 
     const CONST_INT    = 0;
     const CONST_FLOAT  = 0.001;
@@ -27,7 +27,7 @@ abstract class someClass extends someChildClass implements someInterface {
     final public static $attributeNull    = null;
     final public static $attributeArray   = ['key' => 'value'];
 
-    final public static function __construct($param = self::CONST_INT, ...) {
+    final public static function __construct($arg1 = self::CONST_INT, ...) {
         OtherClass::someStaticMethod(0, 0.001, 'string value', true, null, ['key' => 'value']);
         someFunction(0, 0.001, 'string value', true, null, ['key' => 'value']);
         parent::someStaticMethod();

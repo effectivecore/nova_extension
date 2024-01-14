@@ -1,4 +1,12 @@
-High-contrast dark/light theme for long-term usage.
+
+# High-contrast dark/light theme for long-term usage.
+
+## Description
+The dark theme design was developed early in the development of CMS/CMF EFFCORE.
+Its main task: to reduce visual fatigue during prolonged work at the computer.
+To achieve this goal, contrasting, but at the same time calm colors were chosen.
+Their number was specially limited. When looking at the code, the user should be
+able to easily distinguish the language constructs in it.
 
 ## Example for *.PHP
 ![example PHP dark](https://raw.githubusercontent.com/effectivecore/nova_extension/main/examples/example-dark.php.png)

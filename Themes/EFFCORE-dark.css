@@ -238,6 +238,7 @@ tag.framework {
 }
 
 tag.attribute {
+  color: #ffffff;
 }
 
 tag.attribute.name {
@@ -279,13 +280,15 @@ style.selector.pseudoelement {
 }
 
 style.attribute {
-  color: #a2dbf2;
+  color: #ffffff;
 }
 
 style.attribute.name {
+  color: #a2dbf2;
 }
 
 style.value {
+  color: #e5d8a4;
 }
 
 style.value.number {
