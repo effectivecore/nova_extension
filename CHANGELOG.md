@@ -1,3 +1,7 @@
+## Version 1.0.18
+
+Screenshots have been improved.
+
 ## Version 1.0.17
 
 Light theme just got nicer.

@@ -20,12 +20,12 @@ abstract class SomeClass extends BaseClass implements BaseInterface {
     const CONST_NULL   = null;
     const CONST_ARRAY  = ['key' => 'value'];
 
-    final public static $attributeInt     = 0;
-    final public static $attributeFloat   = 0.001;
-    final public static $attributeString  = 'string value';
-    final public static $attributeBool    = true;
-    final public static $attributeNull    = null;
-    final public static $attributeArray   = ['key' => 'value'];
+    final public static $attributeInt    = 0;
+    final public static $attributeFloat  = 0.001;
+    final public static $attributeString = 'string value';
+    final public static $attributeBool   = true;
+    final public static $attributeNull   = null;
+    final public static $attributeArray  = ['key' => 'value'];
 
     final public static function __construct($arg1 = self::CONST_INT, ...) {
         OtherClass::someStaticMethod(0, 0.001, 'string value', true, null, ['key' => 'value']);
